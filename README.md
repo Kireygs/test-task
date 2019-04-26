@@ -1,27 +1,7 @@
-# Task
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+   	For this task used Angular 7, after cloning pls install node_modules by typing “npm install” then to run use “ng serve” or “npm start” and it will run in  http://localhost:4200/
+	For styling used Bootstrap 3. In main component (AppComponent) in header you can see list of color names, when you click you can see then path changes. Example
+http://localhost:4200/red there I used Angular Routes. 
+	Then you can see 2 inputs, first is for the name and second is hash (path) which will be displayed in address of browser. After filling these inputs you can add color using button, but it is required to fill both inputs. There I used Angular Reactive Forms. 
+	Also it is possible to remove from list, if you choose by clicking checkbox button “Remove” will be enable then you can remove. 
+	In the bottom of page I used DetailComponent. After clicking item from list - background-color and item name changes. Example: If you click to yellow, background color of block will be yellow and there will be written “Now you are in page yellow”.  For this function I used first Angular route params.get. There I fetch data from path example: “yellow”. And then to background I used ngStyle and background-color equals to this data from path. 
