@@ -1,7 +1,6 @@
 
    	For this task used Angular 7, after cloning pls install node_modules by typing “npm install” then to run use “ng serve” or “npm start” and it will run in  http://localhost:4200/
-	For styling used Bootstrap 3. In main component (AppComponent) in header you can see list of color names, when you click you can see then path changes. Example
-http://localhost:4200/red there I used Angular Routes. 
+	For styling used Bootstrap 3. In main component (AppComponent) in header you can see list of color names, when you click you can see then path changes. Example http://localhost:4200/red there I used Angular Routes. 
 	Then you can see 2 inputs, first is for the name and second is hash (path) which will be displayed in address of browser. After filling these inputs you can add color using button, but it is required to fill both inputs. There I used Angular Reactive Forms. 
 	Also it is possible to remove from list, if you choose by clicking checkbox button “Remove” will be enable then you can remove. 
 	In the bottom of page I used DetailComponent. After clicking item from list - background-color and item name changes. Example: If you click to yellow, background color of block will be yellow and there will be written “Now you are in page yellow”.  For this function I used first Angular route params.get. There I fetch data from path example: “yellow”. And then to background I used ngStyle and background-color equals to this data from path. 
